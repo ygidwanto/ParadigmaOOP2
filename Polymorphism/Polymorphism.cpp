@@ -12,3 +12,13 @@ public:
 
 	}
 };
+
+class joko :public seseorang {
+public:
+	void pwsan() {
+		cout << "Pesan dari joko" << endl;
+	}
+	void cetak() {
+		cout << "Tulisan Joko" << endl;
+	}
+};
